@@ -54,13 +54,61 @@ public class Main {
 //        System.out.println(myLinkedList.removeFirst());
 
         // Practice - Return a node at a specified index
-        LinkedList myLinkedList = new LinkedList(0);
-        myLinkedList.append(1);
+//        LinkedList myLinkedList = new LinkedList(0);
+//        myLinkedList.append(1);
+//        myLinkedList.append(2);
+//        myLinkedList.append(3);
+//        myLinkedList.printList();
+//
+//        System.out.println("Got the node: " + myLinkedList.get(2).value);
+
+        // Practice - Set a node value at a specified index
+//        LinkedList myLinkedList = new LinkedList(11);
+//        myLinkedList.append(3);
+//        myLinkedList.append(23);
+//        myLinkedList.append(7);
+//
+//        myLinkedList.printList();
+//
+//        System.out.println(myLinkedList.set(1, 4));
+//
+//        myLinkedList.printList();
+
+        // Practice - Insert a new node at a specified index
+//        LinkedList myLinkedList = new LinkedList(0);
+//        myLinkedList.append(2);
+//
+//        myLinkedList.printList();
+//
+//        System.out.println(myLinkedList.insert(1, 1));
+//
+//        myLinkedList.printList();
+
+        // Practice - Remove a node at a specified index
+//        LinkedList myLinkedList = new LinkedList(11);
+//        myLinkedList.append(3);
+//        myLinkedList.append(23);
+//        myLinkedList.append(7);
+//
+//        myLinkedList.printList();
+//
+//        System.out.println("Removed node: " + myLinkedList.remove(2).value);
+//
+//        myLinkedList.printList();
+
+        // Practice - Reverse a linked list in place without creating a new linked list
+        LinkedList myLinkedList = new LinkedList(1);
         myLinkedList.append(2);
         myLinkedList.append(3);
+        myLinkedList.append(4);
+
         myLinkedList.printList();
 
-        System.out.println("Got the node: " + myLinkedList.get(2).value);
+        System.out.println("Reversed:");
+        myLinkedList.reverse();
+
+        myLinkedList.printList();
+
 
 
     }
